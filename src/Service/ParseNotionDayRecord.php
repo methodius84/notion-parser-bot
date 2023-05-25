@@ -3,9 +3,7 @@
 namespace App\Service;
 
 use Carbon\Carbon;
-use Monolog\Logger;
 use Symfony\Component\HttpClient\HttpClient;
-use Symfony\Component\HttpFoundation\Response;
 
 class ParseNotionDayRecord
 {
