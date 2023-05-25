@@ -1,0 +1,10 @@
+controllers:
+    resource:
+        path: ../src/Controller/
+        namespace: App\Controller
+    type: attribute
+
+telegram_route:
+    path: /handle
+    controller: App\Controller\TelegramController::handle
+    methods: [ POST ]
